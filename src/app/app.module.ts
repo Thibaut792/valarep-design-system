@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgHeroiconsModule } from '@dimaslz/ng-heroicons';
 
 import { AppComponent } from './app.component';
+import { CardComponent } from './components/cards/card/card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgHeroiconsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
