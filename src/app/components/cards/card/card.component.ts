@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class CardComponent {
 
+  isMenuOpen: boolean = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
 }
