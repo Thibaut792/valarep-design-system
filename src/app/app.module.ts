@@ -4,11 +4,15 @@ import { NgHeroiconsModule } from '@dimaslz/ng-heroicons';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './components/cards/card/card.component';
+import { LoginPageCardComponent } from './login-page-card/login-page-card.component';
+import { NewLettersCardComponent } from './new-letters-card/new-letters-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    LoginPageCardComponent,
+    NewLettersCardComponent
   ],
   imports: [
     BrowserModule,
